@@ -22,9 +22,9 @@ export default function Header() {
             <span>📍 123 Preschool Ave, Sunnyvale</span>
           </div>
           <div className="flex items-center gap-3">
-            <a aria-label="Facebook" href="#" className="hover:text-primary"></a>
-            <a aria-label="Instagram" href="#" className="hover:text-primary"></a>
-            <a aria-label="Twitter" href="#" className="hover:text-primary"></a>
+            <a aria-label="Facebook" href="#" className="hover:text-primary">📘</a>
+            <a aria-label="Instagram" href="#" className="hover:text-primary">📸</a>
+            <a aria-label="Twitter" href="#" className="hover:text-primary">🐦</a>
           </div>
         </div>
       </div>

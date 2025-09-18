@@ -67,15 +67,28 @@ export default function Index() {
 
         <Section id="programs" subtitle="Our Programs" title="Classes for Every Stage">
           <div className="grid gap-6 md:grid-cols-3">
-            {["Nursery (2-3 yrs)", "Pre-K (3-4 yrs)", "Kindergarten (4-6 yrs)"].map((title, i) => (
-              <div key={title} className="rounded-2xl border bg-white p-5 shadow-sm">
+            {[
+              {
+                title: "Nursery (2-3 yrs)",
+                img: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1600&auto=format&fit=crop",
+              },
+              {
+                title: "Pre-K (3-4 yrs)",
+                img: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1600&auto=format&fit=crop",
+              },
+              {
+                title: "Kindergarten (4-6 yrs)",
+                img: "https://images.unsplash.com/photo-1519452575417-564c1401ecc0?q=80&w=1600&auto=format&fit=crop",
+              },
+            ].map((item) => (
+              <div key={item.title} className="rounded-2xl border bg-white p-5 shadow-sm">
                 <img
-                  src={`https://images.unsplash.com/photo-15${70 + i}06489198-5adcc00f9b61?q=80&w=1200&auto=format&fit=crop`}
-                  alt={title}
+                  src={item.img}
+                  alt={item.title}
                   className="h-48 w-full rounded-xl object-cover"
                   loading="lazy"
                 />
-                <div className="mt-4 text-lg font-semibold">{title}</div>
+                <div className="mt-4 text-lg font-semibold">{item.title}</div>
                 <p className="mt-1 text-sm text-foreground/70">Engaging activities, storytelling, music, and movement to inspire learning.</p>
                 <a href="#admissions" className="mt-4 inline-flex rounded-full bg-primary px-4 py-2 text-xs font-semibold text-primary-foreground hover:bg-primary/90">Enroll Now</a>
               </div>

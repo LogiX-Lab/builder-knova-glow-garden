@@ -96,6 +96,19 @@ export default function Index() {
           </div>
         </Section>
 
+        <Section id="admissions" subtitle="Join Us" title="Admissions Open">
+          <div className="grid items-center gap-8 md:grid-cols-3">
+            <div className="md:col-span-2">
+              <p className="text-foreground/70 md:text-lg">We welcome applications year-round. Schedule a tour, meet our teachers, and discover our joyful learning environment.</p>
+              <div className="mt-6 flex flex-wrap gap-3">
+                <a href="#contact" className="rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground hover:bg-primary/90">Schedule a Tour</a>
+                <a href="#programs" className="rounded-full border px-6 py-3 text-sm font-semibold hover:border-primary hover:text-primary">View Programs</a>
+              </div>
+            </div>
+            <img src="https://images.unsplash.com/photo-1516979187457-637abb4f9353?q=80&w=1600&auto=format&fit=crop" alt="Admissions" className="h-56 w-full rounded-2xl object-cover border shadow-sm" loading="lazy" />
+          </div>
+        </Section>
+
         <Section id="events" subtitle="Upcoming" title="School Events">
           <div className="grid gap-6 md:grid-cols-2">
             <div className="rounded-2xl border bg-white p-6 shadow-sm">

@@ -28,7 +28,7 @@ export default function Index() {
               colorClass="bg-primary/15"
               title="Healthy Meals"
               description="Nutritious and delicious meals to fuel active little learners."
-              icon={<span>���</span>}
+              icon={<span>🍎</span>}
             />
             <FeatureCard
               colorClass="bg-amber-200/50"
@@ -160,7 +160,7 @@ export default function Index() {
                 title="Map"
                 className="mt-4 aspect-video w-full rounded-xl border"
                 loading="lazy"
-                src="https://www.openstreetmap.org/export/embed.html?bbox=-122.046%2C37.368%2C-122.030%2C37.380&amp;layer=mapnik"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-122.046%2C37.368%2C-122.030%2C37.380&layer=mapnik"
               />
             </div>
           </div>

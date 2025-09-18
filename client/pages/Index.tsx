@@ -118,8 +118,8 @@ export default function Index() {
               <a href="#contact" className="mt-4 inline-flex rounded-full border px-4 py-2 text-xs font-semibold hover:border-primary hover:text-primary">Learn More</a>
             </div>
             <img
-              src="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1600&auto=format&fit=crop"
-              alt="Families enjoying a friendly school fair outdoors"
+              src="https://images.pexels.com/photos/5905617/pexels-photo-5905617.jpeg"
+              alt="Families visiting a classroom during open house with teacher"
               className="hidden rounded-2xl border object-cover md:block"
               loading="lazy"
             />

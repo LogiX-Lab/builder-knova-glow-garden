@@ -11,6 +11,7 @@ export default function Index() {
       <Header />
       <main>
         <Hero />
+        <PromoBanner />
 
         <Section subtitle="Why Choose Us" title="Play. Learn. Grow.">
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

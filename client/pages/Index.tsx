@@ -1,6 +1,8 @@
 import Header from "@/components/site/Header";
 import Footer from "@/components/site/Footer";
 import Hero from "@/components/site/Hero";
+import PromoBanner from "@/components/site/PromoBanner";
+import Blog from "@/components/site/Blog";
 import { FeatureCard, Section } from "@/components/site/Components";
 
 export default function Index() {

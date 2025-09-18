@@ -129,6 +129,8 @@ export default function Index() {
           </div>
         </Section>
 
+        <Blog />
+
         <Section id="gallery" subtitle="Gallery" title="Smiles & Memories">
           <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
             {[

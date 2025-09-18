@@ -28,7 +28,7 @@ export default function Index() {
               colorClass="bg-primary/15"
               title="Healthy Meals"
               description="Nutritious and delicious meals to fuel active little learners."
-              icon={<span>🍎</span>}
+              icon={<span>���</span>}
             />
             <FeatureCard
               colorClass="bg-amber-200/50"
@@ -115,10 +115,19 @@ export default function Index() {
 
         <Section id="gallery" subtitle="Gallery" title="Smiles & Memories">
           <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
-            {Array.from({ length: 8 }).map((_, i) => (
+            {[
+              "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1200&auto=format&fit=crop",
+              "https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?q=80&w=1200&auto=format&fit=crop",
+              "https://images.unsplash.com/photo-1522661067900-ab829854a57f?q=80&w=1200&auto=format&fit=crop",
+              "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop",
+              "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1200&auto=format&fit=crop",
+              "https://images.unsplash.com/photo-1516627145497-ae6f7e1f10b3?q=80&w=1200&auto=format&fit=crop",
+              "https://images.unsplash.com/photo-1519452575417-564c1401ecc0?q=80&w=1200&auto=format&fit=crop",
+              "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1200&auto=format&fit=crop",
+            ].map((src, i) => (
               <img
                 key={i}
-                src={`https://images.unsplash.com/photo-15${80 + i}06489198-5adcc00f9b61?q=80&w=1000&auto=format&fit=crop`}
+                src={src}
                 alt={`Gallery ${i + 1}`}
                 className="aspect-square w-full rounded-xl object-cover"
                 loading="lazy"

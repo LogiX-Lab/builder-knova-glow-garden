@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["Inter", "ui-sans-serif", "system-ui", "-apple-system", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "Apple Color Emoji", "Segoe UI Emoji"],
+        display: ["Baloo 2", "ui-sans-serif", "system-ui", "-apple-system", "Segoe UI", "Roboto", "Helvetica Neue", "Arial"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

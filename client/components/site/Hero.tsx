@@ -31,8 +31,8 @@ export default function Hero() {
           <div className="absolute -inset-4 -z-10 rounded-[2rem] bg-gradient-to-tr from-secondary/50 to-accent/40 blur-xl" />
           <img
             src="https://images.unsplash.com/photo-1596464716121-8b2033e06b3a?q=80&w=1600&auto=format&fit=crop"
-            alt="Happy kids learning with a teacher"
-            className="w-full rounded-[1.5rem] border shadow-xl"
+            alt="Happy kids learning from each others"
+            className="w-full rounded-[1.5rem] border shadow-xl object-cover aspect-[16/10]"
             loading="eager"
           />
         </div>

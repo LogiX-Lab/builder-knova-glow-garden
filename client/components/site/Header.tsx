@@ -1,7 +1,13 @@
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 
-const NavLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
+const NavLink = ({
+  href,
+  children,
+}: {
+  href: string;
+  children: React.ReactNode;
+}) => (
   <a
     href={href}
     className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors"
@@ -22,16 +28,25 @@ export default function Header() {
             <span>📍 3600 Lysander Ln Unit 501, Richmond, BC V7B 1C3</span>
           </div>
           <div className="flex items-center gap-3">
-            <a aria-label="Facebook" href="#" className="hover:text-primary">📘</a>
-            <a aria-label="Instagram" href="#" className="hover:text-primary">📸</a>
-            <a aria-label="Twitter" href="#" className="hover:text-primary">🐦</a>
+            <a aria-label="Facebook" href="#" className="hover:text-primary">
+              📘
+            </a>
+            <a aria-label="Instagram" href="#" className="hover:text-primary">
+              📸
+            </a>
+            <a aria-label="Twitter" href="#" className="hover:text-primary">
+              🐦
+            </a>
           </div>
         </div>
       </div>
 
       <div className="container flex items-center justify-between py-4">
         <a href="/" className="flex items-center gap-3">
-          <div className="leading-none" style={{ lineHeight: "0px", backgroundColor: "rgb(255, 255, 254)" }}>
+          <div
+            className="leading-none"
+            style={{ lineHeight: "0px", backgroundColor: "rgb(255, 255, 254)" }}
+          >
             <img
               width={45}
               height={42}
@@ -42,8 +57,12 @@ export default function Header() {
             />
           </div>
           <div className="leading-tight">
-            <div className="text-xl font-extrabold tracking-tight"><p>K-NOVA</p></div>
-            <div className="text-xs text-foreground/60 -mt-0.5">Preschool & Kindergarten</div>
+            <div className="text-xl font-extrabold tracking-tight">
+              <p>K-NOVA</p>
+            </div>
+            <div className="text-xs text-foreground/60 -mt-0.5">
+              Preschool & Kindergarten
+            </div>
           </div>
         </a>
 
@@ -56,7 +75,7 @@ export default function Header() {
           <a
             href="#admissions"
             className={cn(
-              "inline-flex items-center rounded-full bg-primary px-5 py-2 text-sm font-semibold text-primary-foreground shadow-sm hover:bg-primary/90 transition-colors"
+              "inline-flex items-center rounded-full bg-primary px-5 py-2 text-sm font-semibold text-primary-foreground shadow-sm hover:bg-primary/90 transition-colors",
             )}
           >
             Admissions
@@ -68,7 +87,16 @@ export default function Header() {
           onClick={() => setOpen((v) => !v)}
           aria-label="Toggle Menu"
         >
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
             <path d="M3 12h18" />
             <path d="M3 6h18" />
             <path d="M3 18h18" />
@@ -77,7 +105,8 @@ export default function Header() {
       </div>
 
       {/* Mobile menu */}
-      <div className={cn("md:hidden border-t bg-white", open ? "block" : "hidden")}
+      <div
+        className={cn("md:hidden border-t bg-white", open ? "block" : "hidden")}
         onClick={() => setOpen(false)}
       >
         <div className="container py-4 grid gap-4">

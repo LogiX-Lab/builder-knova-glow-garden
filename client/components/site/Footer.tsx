@@ -4,21 +4,49 @@ export default function Footer() {
       <div className="container py-12 grid gap-8 md:grid-cols-4">
         <div>
           <div className="flex items-center gap-3">
-            <img src="https://creativthemes.com/theme-demo/creativ-preschool-fse/wp-content/uploads/sites/290/2025/07/creativ-fse-preschool-logo.jpg" alt="Preschool" width={45} height={42} className="h-auto w-[45px]" loading="lazy" />
+            <img
+              src="https://creativthemes.com/theme-demo/creativ-preschool-fse/wp-content/uploads/sites/290/2025/07/creativ-fse-preschool-logo.jpg"
+              alt="Preschool"
+              width={45}
+              height={42}
+              className="h-auto w-[45px]"
+              loading="lazy"
+            />
             <div className="text-lg font-extrabold">K-NOVA</div>
           </div>
           <p className="mt-4 text-sm text-foreground/70 max-w-xs">
-            A joyful and nurturing place where curiosity blossoms and little minds grow every day.
+            A joyful and nurturing place where curiosity blossoms and little
+            minds grow every day.
           </p>
         </div>
         <div>
           <div className="font-semibold">Quick Links</div>
           <ul className="mt-4 grid gap-2 text-sm text-foreground/80">
-            <li><a href="#about" className="hover:text-primary">About</a></li>
-            <li><a href="#programs" className="hover:text-primary">Programs</a></li>
-            <li><a href="#events" className="hover:text-primary">Events</a></li>
-            <li><a href="#gallery" className="hover:text-primary">Gallery</a></li>
-            <li><a href="#contact" className="hover:text-primary">Contact</a></li>
+            <li>
+              <a href="#about" className="hover:text-primary">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#programs" className="hover:text-primary">
+                Programs
+              </a>
+            </li>
+            <li>
+              <a href="#events" className="hover:text-primary">
+                Events
+              </a>
+            </li>
+            <li>
+              <a href="#gallery" className="hover:text-primary">
+                Gallery
+              </a>
+            </li>
+            <li>
+              <a href="#contact" className="hover:text-primary">
+                Contact
+              </a>
+            </li>
           </ul>
         </div>
         <div>
@@ -31,8 +59,13 @@ export default function Footer() {
         </div>
         <div>
           <div className="font-semibold">Newsletter</div>
-          <p className="mt-4 text-sm text-foreground/70">Get school news, events, and updates.</p>
-          <form className="mt-4 flex gap-2" onSubmit={(e) => e.preventDefault()}>
+          <p className="mt-4 text-sm text-foreground/70">
+            Get school news, events, and updates.
+          </p>
+          <form
+            className="mt-4 flex gap-2"
+            onSubmit={(e) => e.preventDefault()}
+          >
             <input
               type="email"
               required
@@ -40,7 +73,9 @@ export default function Footer() {
               placeholder="Your email"
               aria-label="Email"
             />
-            <button className="rounded-md bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground hover:bg-primary/90">Subscribe</button>
+            <button className="rounded-md bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground hover:bg-primary/90">
+              Subscribe
+            </button>
           </form>
         </div>
       </div>

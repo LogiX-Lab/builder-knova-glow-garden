@@ -15,7 +15,8 @@ export default function Hero() {
             Where Little Minds Bloom Every Day
           </h1>
           <p className="mt-4 max-w-prose text-foreground/70 md:text-lg">
-            A nurturing environment that sparks curiosity, creativity, and confidence in every child.
+            A nurturing environment that sparks curiosity, creativity, and
+            confidence in every child.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <a
@@ -37,8 +38,12 @@ export default function Hero() {
             decoding="async"
             onError={(e) => {
               const img = e.currentTarget as HTMLImageElement;
-              if (img.src !== "https://images.unsplash.com/photo-1596464716121-8b2033e06b3a?q=80&w=1600&auto=format&fit=crop") {
-                img.src = "https://images.unsplash.com/photo-1596464716121-8b2033e06b3a?q=80&w=1600&auto=format&fit=crop";
+              if (
+                img.src !==
+                "https://images.unsplash.com/photo-1596464716121-8b2033e06b3a?q=80&w=1600&auto=format&fit=crop"
+              ) {
+                img.src =
+                  "https://images.unsplash.com/photo-1596464716121-8b2033e06b3a?q=80&w=1600&auto=format&fit=crop";
               }
             }}
           />

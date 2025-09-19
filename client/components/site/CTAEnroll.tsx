@@ -1,7 +1,10 @@
 export default function CTAEnroll() {
   return (
     <section className="relative bg-[#FFFFFE] py-14 md:py-16">
-      <div className="absolute inset-0 bg-[#0FBAF4] opacity-80" aria-hidden="true" />
+      <div
+        className="absolute inset-0 bg-[#0FBAF4] opacity-80"
+        aria-hidden="true"
+      />
       <div className="relative container">
         <div className="mx-auto flex max-w-[1170px] flex-wrap items-center gap-6 md:gap-8">
           <div className="basis-full md:basis-7/12">

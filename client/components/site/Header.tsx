@@ -25,7 +25,7 @@ export default function Header() {
           <div className="flex items-center gap-4">
             <span>📞 (555) 123-4567</span>
             <span>✉️ hello@k-nova.ca</span>
-            <span>📍 3600 Lysander Ln Unit 501, Richmond, BC V7B 1C3</span>
+            <span>📍 3608 Lysander Ln Unit 501, Richmond, BC V7B 1C3</span>
           </div>
           <div className="flex items-center gap-3">
             <a aria-label="Facebook" href="#" className="hover:text-primary">

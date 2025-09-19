@@ -5,6 +5,8 @@ import PromoBanner from "@/components/site/PromoBanner";
 import Blog from "@/components/site/Blog";
 import Services from "@/components/site/Services";
 import Classes from "@/components/site/Classes";
+import About from "@/components/site/About";
+import CTAEnroll from "@/components/site/CTAEnroll";
 import { FeatureCard, Section } from "@/components/site/Components";
 
 export default function Index() {

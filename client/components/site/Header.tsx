@@ -31,9 +31,18 @@ export default function Header() {
 
       <div className="container flex items-center justify-between py-4">
         <a href="/" className="flex items-center gap-3">
-          <div className="h-10 w-10 rounded-xl bg-gradient-to-tr from-primary to-accent grid place-items-center text-white font-bold">BB</div>
+          <div className="leading-none" style={{ lineHeight: "0px", backgroundColor: "rgb(255, 255, 254)" }}>
+            <img
+              width={45}
+              height={42}
+              alt="Preschool"
+              src="https://creativthemes.com/theme-demo/creativ-preschool-fse/wp-content/uploads/sites/290/2025/07/creativ-fse-preschool-logo.jpg"
+              className="inline-block w-[45px] h-auto"
+              loading="lazy"
+            />
+          </div>
           <div className="leading-tight">
-            <div className="text-xl font-extrabold tracking-tight">BrightBeginnings</div>
+            <div className="text-xl font-extrabold tracking-tight"><p>K-NOVA</p></div>
             <div className="text-xs text-foreground/60 -mt-0.5">Preschool & Kindergarten</div>
           </div>
         </a>

@@ -173,9 +173,9 @@ export default function Index() {
             <div className="rounded-2xl border bg-secondary/20 p-6 shadow-sm">
               <div className="text-lg font-semibold">School Information</div>
               <ul className="mt-3 grid gap-2 text-sm text-foreground/80">
-                <li>📍 123 Preschool Ave, Sunnyvale</li>
+                <li>📍 3600 Lysander Ln Unit 501, Richmond, BC V7B 1C3</li>
                 <li>📞 (555) 123-4567</li>
-                <li>✉️ hello@brightbeginnings.school</li>
+                <li>✉️ we@k-nova.ca</li>
                 <li>⏰ Mon–Fri: 8:00 AM – 4:00 PM</li>
               </ul>
               <iframe

@@ -18,8 +18,8 @@ export default function Header() {
         <div className="container flex items-center justify-between py-2 text-xs text-foreground/70">
           <div className="flex items-center gap-4">
             <span>📞 (555) 123-4567</span>
-            <span>✉️ hello@brightbeginnings.school</span>
-            <span>📍 123 Preschool Ave, Sunnyvale</span>
+            <span>✉️ hello@k-nova.ca</span>
+            <span>📍 3600 Lysander Ln Unit 501, Richmond, BC V7B 1C3</span>
           </div>
           <div className="flex items-center gap-3">
             <a aria-label="Facebook" href="#" className="hover:text-primary">📘</a>

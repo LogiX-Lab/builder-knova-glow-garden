@@ -31,7 +31,7 @@ export default function Services() {
   ];
 
   return (
-    <section className="bg-[#FFFFFE] py-24">
+    <section className="bg-[#FFFFFE] py-24 mt-px">
       <div className="container grid gap-14 sm:grid-cols-2 lg:grid-cols-4">
         {items.map((it) => (
           <div key={it.title} className="relative rounded-2xl">

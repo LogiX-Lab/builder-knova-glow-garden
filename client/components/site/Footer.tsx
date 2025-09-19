@@ -4,8 +4,8 @@ export default function Footer() {
       <div className="container py-12 grid gap-8 md:grid-cols-4">
         <div>
           <div className="flex items-center gap-3">
-            <div className="h-10 w-10 rounded-xl bg-gradient-to-tr from-primary to-accent grid place-items-center text-white font-bold">BB</div>
-            <div className="text-lg font-extrabold">BrightBeginnings</div>
+            <img src="https://creativthemes.com/theme-demo/creativ-preschool-fse/wp-content/uploads/sites/290/2025/07/creativ-fse-preschool-logo.jpg" alt="Preschool" width={45} height={42} className="h-auto w-[45px]" loading="lazy" />
+            <div className="text-lg font-extrabold">K-NOVA</div>
           </div>
           <p className="mt-4 text-sm text-foreground/70 max-w-xs">
             A joyful and nurturing place where curiosity blossoms and little minds grow every day.
@@ -25,8 +25,8 @@ export default function Footer() {
           <div className="font-semibold">Contact</div>
           <ul className="mt-4 grid gap-2 text-sm text-foreground/80">
             <li>📞 (555) 123-4567</li>
-            <li>✉️ hello@brightbeginnings.school</li>
-            <li>📍 123 Preschool Ave, Sunnyvale</li>
+            <li>✉️ we@k-nova.ca</li>
+            <li>📍 3600 Lysander Ln Unit 501, Richmond, BC V7B 1C3</li>
           </ul>
         </div>
         <div>
@@ -46,7 +46,7 @@ export default function Footer() {
       </div>
       <div className="border-t">
         <div className="container py-6 text-center text-xs text-foreground/60">
-          © {new Date().getFullYear()} BrightBeginnings Preschool. All rights reserved.
+          © {new Date().getFullYear()} K-NOVA Preschool. All rights reserved.
         </div>
       </div>
     </footer>

@@ -54,7 +54,7 @@ export default function Footer() {
           <ul className="mt-4 grid gap-2 text-sm text-foreground/80">
             <li>📞 (555) 123-4567</li>
             <li>✉️ we@k-nova.ca</li>
-            <li>📍 3600 Lysander Ln Unit 501, Richmond, BC V7B 1C3</li>
+            <li>📍 3608 Lysander Ln Unit 501, Richmond, BC V7B 1C3</li>
           </ul>
         </div>
         <div>

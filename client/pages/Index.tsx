@@ -173,13 +173,13 @@ export default function Index() {
             className="absolute inset-0 bg-[#0FBAF4] opacity-80"
           />
           <div className="relative container">
-            <div className="mx-auto flex max-w-[1170px] flex-wrap items-center gap-6 md:gap-8">
-              <div className="basis-full md:basis-7/12">
+            <div className="mx-auto flex w-full max-w-[1170px] items-center gap-6 md:gap-8 md:flex-nowrap">
+              <div className="basis-full md:basis-7/12 md:flex-1">
                 <h3 className="mx-auto text-white text-[28px] leading-[36.4px] md:text-[36px] md:leading-[46.8px]">
                   How to Enroll Your Child to Our Preschool?
                 </h3>
               </div>
-              <div className="basis-full md:basis-5/12">
+              <div className="basis-full md:basis-5/12 md:ml-auto">
                 <div className="mx-auto flex max-w-[1170px] flex-wrap items-center justify-end gap-4">
                   <a
                     href="#contact"

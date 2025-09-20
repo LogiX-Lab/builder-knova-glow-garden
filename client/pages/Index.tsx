@@ -168,15 +168,25 @@ export default function Index() {
         </Section>
 
         <div className="relative py-12 md:py-14 overflow-clip">
-          <span aria-hidden className="absolute inset-0 bg-[#0FBAF4] opacity-80" />
+          <span
+            aria-hidden
+            className="absolute inset-0 bg-[#0FBAF4] opacity-80"
+          />
           <div className="relative container">
             <div className="mx-auto flex max-w-[1170px] flex-wrap items-center gap-6 md:gap-8">
               <div className="basis-full md:basis-7/12">
-                <h3 className="mx-auto text-white text-[28px] leading-[36.4px] md:text-[36px] md:leading-[46.8px]">How to Enroll Your Child to Our Preschool?</h3>
+                <h3 className="mx-auto text-white text-[28px] leading-[36.4px] md:text-[36px] md:leading-[46.8px]">
+                  How to Enroll Your Child to Our Preschool?
+                </h3>
               </div>
               <div className="basis-full md:basis-5/12">
                 <div className="mx-auto flex max-w-[1170px] flex-wrap items-center justify-end gap-4">
-                  <a href="#contact" className="inline-block rounded-[30px] bg-[#FDA00F] px-7 py-4 text-[14px] uppercase text-white">Contact Us</a>
+                  <a
+                    href="#contact"
+                    className="inline-block rounded-[30px] bg-[#FDA00F] px-7 py-4 text-[14px] uppercase text-white"
+                  >
+                    Contact Us
+                  </a>
                 </div>
               </div>
             </div>
